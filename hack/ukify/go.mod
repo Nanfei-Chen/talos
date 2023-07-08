@@ -5,14 +5,14 @@ go 1.20
 replace github.com/siderolabs/talos/pkg/machinery => ../../pkg/machinery
 
 require (
-	github.com/foxboron/go-uefi v0.0.0-20230218004016-d1bb9a12f92c
+	github.com/foxboron/go-uefi v0.0.0-20230701115042-32187aa193d0
 	github.com/google/go-tpm v0.9.0
-	github.com/google/go-tpm-tools v0.3.13-0.20230620182252-4639ecce2aba
+	github.com/google/go-tpm-tools v0.4.0
 	github.com/saferwall/pe v1.4.4
 	github.com/siderolabs/crypto v0.4.0
 	github.com/siderolabs/go-procfs v0.1.1
-	github.com/siderolabs/talos v1.4.5
-	github.com/siderolabs/talos/pkg/machinery v1.5.0-alpha.0
+	github.com/siderolabs/talos v1.4.6
+	github.com/siderolabs/talos/pkg/machinery v1.5.0-alpha.1
 )
 
 require (
